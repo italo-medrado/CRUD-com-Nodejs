@@ -1,0 +1,82 @@
+{
+  "exemplos_filmes": [
+    {
+      "titulo": "Inception",
+      "diretor": "Christopher Nolan",
+      "ano": 2010,
+      "genero": "Ficção Científica"
+    },
+    {
+      "titulo": "The Matrix",
+      "diretor": "Lana Wachowski",
+      "ano": 1999,
+      "genero": "Ação"
+    },
+    {
+      "titulo": "Interstellar",
+      "diretor": "Christopher Nolan",
+      "ano": 2014,
+      "genero": "Ficção Científica"
+    },
+    {
+      "titulo": "Parasite",
+      "diretor": "Bong Joon-ho",
+      "ano": 2019,
+      "genero": "Thriller"
+    },
+    {
+      "titulo": "Pulp Fiction",
+      "diretor": "Quentin Tarantino",
+      "ano": 1994,
+      "genero": "Crime"
+    }
+  ],
+  "sequencia_testes": [
+    {
+      "operacao": "1. Verificar API",
+      "metodo": "GET",
+      "url": "http://localhost:3000/",
+      "body": null
+    },
+    {
+      "operacao": "2. Adicionar filme",
+      "metodo": "POST",
+      "url": "http://localhost:3000/filmes",
+      "body": {
+        "titulo": "Inception",
+        "diretor": "Christopher Nolan",
+        "ano": 2010,
+        "genero": "Ficção Científica"
+      }
+    },
+    {
+      "operacao": "3. Listar todos os filmes",
+      "metodo": "GET",
+      "url": "http://localhost:3000/filmes",
+      "body": null
+    },
+    {
+      "operacao": "4. Buscar filme por ID",
+      "metodo": "GET",
+      "url": "http://localhost:3000/filmes/1",
+      "body": null
+    },
+    {
+      "operacao": "5. Atualizar filme",
+      "metodo": "PUT",
+      "url": "http://localhost:3000/filmes/1",
+      "body": {
+        "titulo": "Inception",
+        "diretor": "Christopher Nolan",
+        "ano": 2010,
+        "genero": "Drama"
+      }
+    },
+    {
+      "operacao": "6. Remover filme",
+      "metodo": "DELETE",
+      "url": "http://localhost:3000/filmes/1",
+      "body": null
+    }
+  ]
+}
