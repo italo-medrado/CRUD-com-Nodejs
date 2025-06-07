@@ -247,53 +247,6 @@ node server.js
 }
 ```
 
-## 🎥 Roteiro para Vídeo Explicativo (5 minutos)
-
-### 1. Apresentação do Tema (30s)
-- "Olá! Hoje vou apresentar um CRUD em Node.js com o tema 'Lista de Filmes Favoritos'"
-- "Escolhi esse tema porque é algo prático e interessante para demonstrar as operações CRUD"
-
-### 2. Explicação dos Dados (30s)
-- Mostrar a estrutura do objeto filme
-- Explicar cada campo: id, titulo, diretor, ano, genero
-- Mencionar as validações implementadas
-
-### 3. Explicação do Código (1min 30s)
-- Mostrar o arquivo server.js
-- Explicar o array em memória
-- Explicar cada rota e sua função
-- Destacar as validações e tratamento de erros
-
-### 4. Demonstração das Operações CRUD (2min 30s)
-- **CREATE**: Adicionar 2-3 filmes diferentes
-- **READ**: Listar todos os filmes e buscar um por ID
-- **UPDATE**: Atualizar um filme existente
-- **DELETE**: Remover um filme
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Node.js**: Runtime JavaScript
-- **Express.js**: Framework web minimalista
-- **JavaScript ES6+**: Linguagem de programação
-
-## 📁 Estrutura do Projeto
-
-```
-crud-filmes/
-├── server.js          # Arquivo principal da aplicação
-├── package.json       # Configurações e dependências
-├── README.md         # Documentação do projeto
-└── node_modules/     # Dependências instaladas
-```
-
-## 🎯 Objetivos Alcançados
-
-✅ Implementação completa das 4 operações CRUD  
-✅ Uso de dados em memória (sem banco de dados)  
-✅ Validações de entrada robustas  
-✅ Respostas claras de sucesso e erro  
-✅ Estrutura de código organizada  
-✅ Documentação completa com exemplos  
 
 ---
 
